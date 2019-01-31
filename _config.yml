@@ -37,6 +37,8 @@ footer:
   links:
     - title: "Vejle Idrætshøjskoles Elevforening"
       url: "http://elevforeningen.vih.dk"
+    - title: Privatlivspolitik
+      url: "/privatlivspolitik/"          
     - title: Facebook
       icon: facebook
       url: "https://www.facebook.com/elevforeningen/"
