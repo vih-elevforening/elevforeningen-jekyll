@@ -19,7 +19,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "hidden"}
       - {label: "author", name: "title", widget: "string"}      
-      - {label: "Category", name: "category", widget: "select", options: ["Status", "Nybyggeri", "Renovering", "Nyhedsbrev"], multiple: true}
+      - {label: "Category", name: "category", widget: "select", options: ["Gensynsweekend", "Generalforsamling", "Nyhedsbrev"]}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Excerpt", name: "intro", widget: "text"}
