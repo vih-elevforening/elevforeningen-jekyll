@@ -35,8 +35,6 @@ footer:
   address_headline: "Adresse"
   links_headline: "Links"
   links:
-    - title: "Vejle Idrætshøjskoles Elevforening"
-      url: "http://elevforeningen.vih.dk"
     - title: Privatlivspolitik
       url: "/privatlivspolitik/"          
     - title: Facebook
