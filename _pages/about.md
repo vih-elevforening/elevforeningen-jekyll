@@ -2,60 +2,33 @@
 layout: page
 permalink: /om/
 show_headline: true
-title: "Om Vejle Idrætsskoles Fond"
-intro: "Vejle Idrætshøjskole og -idrætsefterskole har en fond med henblik på at understøtte udviklingen af skolens faciliteter til gavn for elever, kursister og personale."
-grid:
-  - title: Carsten Lang Petersen
-    url: "#"
-    image: https://fond.vih.dk/sites/fond-vih.local/files/styles/panopoly_image_full/public/general/carsten-lang_0.jpg
-    description: "formand for bestyrelsen"
-    published: true
-  - title: Ole Damgaard
-    url: "#"
-    image: https://fond.vih.dk/sites/fond-vih.local/files/styles/panopoly_image_full/public/general/od.jpg
-    description: "forstander for højskolen"
-    published: true
-  - title: Frank Rasmussen
-    url: "#"
-    image: http://fond.vies.dk/sites/fond-vies.local/files/styles/panopoly_image_full/public/general/frank1.jpg
-    description: "forstander efterskolen"
-    published: true
-  - title: Peter Sebastian Petersen
-    url: "#"
-    image: https://www.vih.dk/sites/vih/files/laerere-55.jpg
-    description: "forretningsudvikler og medlem af FFD's bestyrelse"
-    published: false
+title: "Om Vejle Idrætshøjskoles Elevforening"
+intro: "Elevforeningens fornemste opgave er at skabe et sammenhold omkring Vejle Idrætshøjskole for alle de tidligere elever, der gerne vil vedligeholde kontakten med hinanden og skolen. Det gør vi bl.a. ved at hvert år i august at invitere til en stor gensynsweekend for alle tidligere elever og udsende nyhedsbreve."
 ---
 
-Vejle Idrætshøjskole og -idrætsefterskole har en fond med henblik på at understøtte udviklingen af skolens faciliteter til gavn for elever, kursister og personale.
+## Formålet med Elevforeningen
 
-Formålet med fonden er
+Elevforeningens fornemste opgave er at skabe et sammenhold omkring [Vejle Idrætshøjskole](https://www.vih.dk/) for alle de tidligere elever, der gerne vil vedligeholde kontakten med hinanden og skolen. Det gør vi bl.a. ved at hvert år i august at invitere til en stor gensynsweekend for alle tidligere elever og udsende nyhedsbreve.
 
-- at bidrage til udviklingen af faciliteterne på skolerne til gavn for elever, ansatte og lokalbefolkningen. Specifikt skal fonden støtte skolens projekter.
-- at give mulighed for tidligere elever, kursister lokalbefolkningen og andre der er interesserede i skolen til at støtte skolens fortsatte udvikling gennem skattemæssigt fradragsberettigede bidrag.
+## Få medlemsskab af elevforeningen
 
-## Vil du give en gave til fonden?
+Det er gratis at være medlem af Elevforeningen.
 
-Vi håber, at du vil være med til at hjælpe Vejle Idrætshøjskole og Idrætsefterskole med den fremtidige udvikling. Giv et bidrag.
+Som medlem modtager du bl.a. et nyhedsbrev, og du kan tilmelde dig vores forskellige arrangementer. Det eneste det kræver er, at vi har din mailadresse. Hvis du ikke modtager nyt fra os, kan du tilmelde dig her på siden.
 
-## Bidrag er skatte- og afgiftsfri
+## Hvilken årgang hører jeg til?
 
-### Gaver
+Du hører til den årgang, du går ud med. Hvis du går ud i efteråret 2013, så hører du altså til årgangen 13/14 - også selvom du måske startede i foråret 2013.
 
-På selvangivelsen kan du fratrække dit samlede gavebeløb op til 14.500 kroner. Bundgrænsen på 500 kroner faldt bort den 1. januar 2012.
+## Hjælp din gamle skole!
 
-Ægtefæller kan få hver sit fradrag, og derfor tilsammen give op til 29.000 kroner i fradrag.
+Som tidligere elev er du den allerbedste ambassadør for [Vejle Idrætshøjskole](https://www.vih.dk/).
 
-Det skal derfor fremgå af indbetalingen, hvem af ægtefællerne der giver gaven til fonden.
+- **Få elever til at starte på højskolen**. Du kan hjælpe os ved at fortælle vidt og bredt om, hvor fedt det er at gå på VIH. Og for hver elev du skaffer, kan du deltage gratis i den efterfølgende Gensynsweekend. Du skal bare bede den kommende elev skrive dit navn på sit tilmeldingskort.
+- **[Bliv medlem af fonden](/fond/)**. Ved at støtte højskolens fond, kan du gøre en stor forskel for skolen. Få medlemsskab af fonden.
 
-### Testamente
+## Kontakt Elevforeningen
 
-Testamentariske gaver er boafgiftsfri. Det betyder, at hele beløbet kommer skolen til gode.
+Hvis du har spørgsmål til Elevforeningens arbejde, forslag, kritik eller andet, er du selvfølgelig meget velkommen til at skrive til [elevforeningen@vih.dk](mailto:elevforeningen@vih.dk).
 
-Tak for din interesse i at støtte skolen
-
-## Læs mere om skolerne
-
-Du kan læse mere om skolerne på hhv. [www.vih.dk](http://www.vih.dk) og [www.vies.dk](http://www.vies.dk).
-
-{% include grid.html grid=page.grid %}
+Du kan også skrive til et af medlemmerne af elevforeningens bestyrelse.

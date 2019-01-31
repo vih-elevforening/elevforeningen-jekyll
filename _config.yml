@@ -37,6 +37,18 @@ footer:
   links:
     - title: "Vejle Idrætshøjskoles Elevforening"
       url: "http://elevforeningen.vih.dk"
+    - title: Facebook
+      icon: facebook
+      url: "https://www.facebook.com/elevforeningen/"
+    - title: Instagram
+      icon: instagram
+      url: "https://www.instagram.com/elevforeningenvih/"
+    - title: Vejle Idrætshøjskole
+      url: "https://www.vih.dk"
+    - title: Vejle Idrætshøjskoles Historie
+      url: "https://historie.vih.dk"
+    - title: Vejle Idrætshøjskoles Fond
+      url: "https://fond.vih.dk"      
   about_headline: "Om Elevforeningen"
   about: "Elevforeningens fornemste opgave er at skabe et sammenhold omkring Vejle Idrætshøjskole for alle de tidligere elever, der gerne vil vedligeholde kontakten med hinanden og skolen."
 
