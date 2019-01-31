@@ -1,0 +1,36 @@
+main:
+  - title: Om
+    url: "/om/"
+  - title: Bliv medlem
+    url: "/medlemsskab/"
+  - title: Støt fonden
+    url: "/fond/"
+  - title: Opdateringer
+    url: "/opdateringer/"
+footer:
+  - title: Elevforeningen
+    children:
+      - title: Om elevforeningen
+        url: "/om/"
+      - title: Bliv medlem
+        url: "/medlemsskab/"
+      - title: Støt fonden
+        url: "/fond/"
+      - title: Opdateringer
+        url: "/opdateringer/"
+social:
+  - title: Facebook
+    icon: facebook
+    url: "https://www.facebook.com/elevforeningen/"
+  - title: Instagram
+    icon: instagram
+    url: "https://www.instagram.com/elevforeningenvih/"
+footer:
+  - title: Vores links
+    children:
+      - title: Vejle Idrætshøjskole
+        url: "https://www.vih.dk"
+      - title: Vejle Idrætshøjskoles Historie
+        url: "https://historie.vih.dk"
+      - title: Vejle Idrætshøjskoles Fond
+        url: "https://fond.vih.dk"
