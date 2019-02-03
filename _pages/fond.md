@@ -16,4 +16,4 @@ Elevforeningen anbefaler dig at være medlem af højskolens fond.
 
 Medlemsskabet gælder for et kalenderår - og trækkes årligt. Du kan også [give et enkeltbidrag](http://fond.vih.dk/bidrag/), hvis du hellere vil det.
 
-[Få medlemsskab](http://fond.vih.dk/medlemsskab/){: .btn .btn-warning .btn-large} [Giv et enkeltbidrag](http://fond.vih.dk/bidrag/){: .btn}
+[Få medlemsskab](http://fond.vih.dk/medlem/){: .btn .btn-warning .btn-large} [Giv et enkeltbidrag](http://fond.vih.dk/bidrag/){: .btn}
