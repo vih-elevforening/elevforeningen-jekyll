@@ -37,3 +37,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "select", options: ["page", "blog", "default"]}
       - {label: "Show headline", name: "show_headline", widget: "select", options: ["true", "false"]}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "index" # Used in routes, e.g., /admin/collections/blog
+    label: "Homepage" # Used in the UI
+    files: 
+      - file: "index.html"
+        name: "homepage"
+        label: "Homepage"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Intro", name: "intro", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "select", options: ["page", "blog", "default"]}
+          - {label: "Show headline", name: "show_headline", widget: "select", options: ["true", "false"]}
+          - {label: "Body", name: "body", widget: "markdown"}   
