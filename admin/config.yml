@@ -40,7 +40,7 @@ collections:
   - name: "index" # Used in routes, e.g., /admin/collections/blog
     label: "Homepage" # Used in the UI
     files: 
-      - file: "index.html"
+      - file: "index.md"
         name: "homepage"
         label: "Homepage"
         fields:
