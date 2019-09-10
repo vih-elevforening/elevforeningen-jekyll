@@ -3,11 +3,11 @@ layout: page
 permalink: /privatlivspolitik/
 title: Privatlivs- og cookiepolitik for Vejle Idrætshøjskoles Elevforening
 show_headline: true
-intro: &description Dette er privatlivspolitikken for elevforeningen.vih.dk. Politikken gælder fra den 9. maj 2018.
+intro: &description Dette er privatlivspolitikken for elevforeningen.vih.dk.
 description: *description
 ---
 
-Dette er privatlivspolitikken for websitet elevforeningen.vih.dk styret af Vejle Idrætshøjskoles Elevforening. Politikken gælder fra den 9. maj 2018.
+Dette er privatlivspolitikken for websitet elevforeningen.vih.dk styret af Vejle Idrætshøjskoles Elevforening.
 
 Vi har en klar politik om at beskytte dine personlige oplysninger. Her kan du læse mere om vores politik - og hvad vi gør i praksis. Hvis du har yderligere spørgsmål om eller kommentarer til sikkerheden på vores websted, er du meget velkommen til at skrive til os.
 
@@ -18,7 +18,6 @@ Dette website udbydes af:
 Vejle Idrætshøjskoles Elevforening
 Ørnebjergvej 28
 7100 Vejle
-CVR 36850728
 
 ## HVILKE OPLYSNINGER INDSAMLER VI OM DIG?
 
@@ -42,7 +41,7 @@ Vi udsender ikke e-mail-reklamer uden dit udtrykkelige og aktive samtykke. Hvis 
 
 ## SIKKER FORBINDELSE - SSL-KRYPTERING?
 
-Når du sender oplysninger ved hjælp af formularer fra vores side foregår det via en sikker forbindelse med et certifikat udstedt af Letsencrypt. Alle vores sider vises gennem en sikker forbindelse.
+Når du sender oplysninger ved hjælp af formularer fra vores side foregår det via en sikker forbindelse.
 
 ## HÅNDTERING AF E-MAILS?
 
@@ -77,3 +76,5 @@ Du kan fravælge cookies fra Google Analytics her: tools.google.com/dlpage/gaopt
 ## RET TIL INDSIGT - OG KLAGER
 
 Du har naturligvis ret til indsigt i hvilke oplysninger, vi har registrereret om dig. Disse rettigheder har du efter persondataloven og henvendelse i forbindelse hermed rettes til Vejle Idrætshøjskoles Elevforening via e-mail. I forbindelse med kurser kan vi naturligvis kun slette oplysninger, der er blevet forældede, da de skal bruges til indberetning til staten.
+
+_Politikken gælder fra den 9. maj 2018._

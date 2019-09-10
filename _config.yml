@@ -36,7 +36,9 @@ footer:
   links_headline: "Links"
   links:
     - title: Privatlivspolitik
-      url: "/privatlivspolitik/"          
+      url: "/privatlivspolitik/"       
+    - title: Persondatapolitik
+      url: "/persondatapolitik/"
     - title: Facebook
       icon: facebook
       url: "https://www.facebook.com/elevforeningen/"
