@@ -1,0 +1,26 @@
+{
+  "name": "exit.vih.dk",
+  "version": "1.0.0",
+  "description": "Official site for exit.vih.dk.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vih/exit-dji-jekyll-dk.git"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "netlify"
+  ],
+  "author": "Lars Olesen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vih/exit-dji-jekyll-dk/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "start": "bundle exec jekyll server --port 8080 --incremental"
+  }
+}

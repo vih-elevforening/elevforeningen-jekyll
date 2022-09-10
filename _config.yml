@@ -16,7 +16,7 @@ name                     : "Vejle Idrætsskoles Elevforening"
 description              : "Vejle Idrætsskoles Elevforening"
 email                    : "elevforeningen@vih.dk"
 # logo                     : ""
-url                      : "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://elevforeningen.vih.dk/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "vih-elevforening/elevforeningen-jekyll" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -36,7 +36,7 @@ footer:
   links_headline: "Links"
   links:
     - title: Privatlivspolitik
-      url: "/privatlivspolitik/"       
+      url: "/privatlivspolitik/"
     - title: Persondatapolitik
       url: "/persondatapolitik/"
     - title: Facebook
@@ -50,7 +50,7 @@ footer:
     - title: Vejle Idrætshøjskoles Historie
       url: "https://historie.vih.dk"
     - title: Vejle Idrætshøjskoles Fond
-      url: "https://fond.vih.dk"      
+      url: "https://fond.vih.dk"
   about_headline: "Om Elevforeningen"
   about: "Elevforeningens fornemste opgave er at skabe et sammenhold omkring Vejle Idrætshøjskole for alle de tidligere elever, der gerne vil vedligeholde kontakten med hinanden og skolen."
 
@@ -152,7 +152,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-redirect-from
-
+  - jekyll-remote-theme
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -202,8 +202,6 @@ compress_html:
 
 # Add custom collections
 collections:
-  pages:
-    output: true
 
 
 # Set defaults
