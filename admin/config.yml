@@ -1,13 +1,30 @@
 backend:
   name: github
   repo: vih-elevforening/elevforeningen-jekyll
-  branch: gh-pages # Branch to update (optional; defaults to master)
+  branch: master # Branch to update (optional; defaults to master)
+  api_root: https://api.github.com
+  site_domain: motionsplan.netlify.app
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+  cms_label_prefix: netlify-cms/
+  open_authoring: true
+  squash_merges: true
 
 media_folder: "assets/images/uploads" # Media files will be stored in the repo under images/uploads
+
+site_url: https://elevforeningen.vih.dk
+display_url: https://elevforeningen.vih.dk
+logo_url: https://elevforeningen.vih.dk/android-chrome-192x192.png
+
+show_preview_links: true
+
+editor:
+  preview: false
 
 slug:
   encoding: "ascii"
   clean_accents: true
+  sanitize_replacement: "-"
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
@@ -18,11 +35,9 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "hidden"}
-      - {label: "author", name: "author", widget: "string"}      
       - {label: "Category", name: "category", widget: "select", options: ["Gensynsweekend", "Generalforsamling", "Nyhedsbrev"]}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Excerpt", name: "intro", widget: "text"}
+      - {label: "Excerpt", name: "excerpt", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
@@ -32,20 +47,17 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "hidden"}
-      - {label: "Intro", name: "intro", widget: "string", required: false}
-      - {label: "Description", name: "description", widget: "string", required: false}
-      - {label: "Layout", name: "layout", widget: "select", options: ["page", "blog", "default"]}
-      - {label: "Show headline", name: "show_headline", widget: "select", options: ["true", "false"], required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "string", required: false}
+      - {label: "Layout", name: "layout", widget: "select", options: ["single"]}
       - {label: "Body", name: "body", widget: "markdown",  required: false}
   - name: "index" # Used in routes, e.g., /admin/collections/blog
     label: "Homepage" # Used in the UI
-    files: 
-      - file: "index.md"
+    files:
+      - file: "index.html"
         name: "homepage"
         label: "Homepage"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Intro", name: "intro", widget: "string"}
-          - {label: "Layout", name: "layout", widget: "select", options: ["page", "blog", "default"]}
-          - {label: "Show headline", name: "show_headline", widget: "select", options: ["true", "false"]}
-          - {label: "Body", name: "body", widget: "markdown"}   
+          - {label: "Excerpt", name: "excerpt", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "select", options: ["splash"]}
+          - {label: "Body", name: "body", widget: "markdown"}

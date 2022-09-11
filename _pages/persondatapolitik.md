@@ -1,17 +1,19 @@
 ---
-layout: page
+layout: single
+author_profile: true
 permalink: /persondatapolitik/
 title: Persondatapolitik for Vejle Idrætshøjskoles Elevforening
 show_headline: true
-intro: &description Dette er persondatapolitikken for Elevforeningen på Vejle Idrætshøjskole.
+excerpt: &description Dette er persondatapolitikken for Elevforeningen på Vejle Idrætshøjskole.
 description: *description
+author: elevforeningen
 ---
 
 Dette er Vejle Idrætshøjskoles Elevforening persondatapolitik.
 
-Elevforeningen har brug for at indhente personoplysninger om medlemmerne i forbindelse med indmeldelse. Elevforeningen anvender alene disse personoplysninger med henblik på at kunne invitere til arrangementer og orientere om elevforeningens arbejde.. 
+Elevforeningen har brug for at indhente personoplysninger om medlemmerne i forbindelse med indmeldelse. Elevforeningen anvender alene disse personoplysninger med henblik på at kunne invitere til arrangementer og orientere om elevforeningens arbejde..
 
-Elevforeningen indsamler almindelige personoplysninger om et medlem som fx navn, adresse, telefonnummer, e-mail, nationalitet og årgang på skolen. 
+Elevforeningen indsamler almindelige personoplysninger om et medlem som fx navn, adresse, telefonnummer, e-mail, nationalitet og årgang på skolen.
 
 Elevforeningen opbevarer disse stamdataoplysninger indtil de eksplicit og skriftligt ønskes fjernet fra kartoteket. Kartoteket opbevares sikkert i Google Suite, og kun betroede medlemmer af elevforeningens bestyrelse har adgang til kartoteket.
 

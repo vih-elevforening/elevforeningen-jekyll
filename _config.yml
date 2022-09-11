@@ -5,8 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-remote_theme:            "lsolesen/Stanley-Jekyll"
-skin:   "dark" # "default", "dark"
+theme: minimal-mistakes-jekyll
+skin:   "contrast" # # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # Site Settings
 locale                   : "da"
@@ -15,7 +15,7 @@ title_separator          : "-"
 name                     : "Vejle Idrætsskoles Elevforening"
 description              : "Vejle Idrætsskoles Elevforening"
 email                    : "elevforeningen@vih.dk"
-# logo                     : ""
+logo                     : "/android-chrome-192x192.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 url                      : "https://elevforeningen.vih.dk/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "vih-elevforening/elevforeningen-jekyll" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -30,29 +30,32 @@ address:
   - Ørnebjergvej 28
   - 7100 Vejle
 
+
+
 # Footer
 footer:
-  address_headline: "Adresse"
-  links_headline: "Links"
   links:
-    - title: Privatlivspolitik
-      url: "/privatlivspolitik/"
-    - title: Persondatapolitik
-      url: "/persondatapolitik/"
-    - title: Facebook
-      icon: facebook
+    - label: Facebook
+      icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/elevforeningen/"
-    - title: Instagram
-      icon: instagram
+    - label: Instagram
+      icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/elevforeningenvih/"
-    - title: Vejle Idrætshøjskole
+    - label: Privatlivspolitik
+      url: "/privatlivspolitik/"
+      icon: "fas fa-fw fa-exclamation-triangle"
+    - label: Persondatapolitik
+      icon: "fas fa-fw fa-exclamation-triangle"
+      url: "/persondatapolitik/"
+    - label: vih.dk
+      icon: "fab fa-fw fa-globe"
       url: "https://www.vih.dk"
-    - title: Vejle Idrætshøjskoles Historie
+    - label: Historien
+      icon: "fab fa-fw fa-globe"
       url: "https://historie.vih.dk"
-    - title: Vejle Idrætshøjskoles Fond
+    - label: Fonden
+      icon: "fab fa-fw fa-globe"
       url: "https://fond.vih.dk"
-  about_headline: "Om Elevforeningen"
-  about: "Elevforeningens fornemste opgave er at skabe et sammenhold omkring Vejle Idrætshøjskole for alle de tidligere elever, der gerne vil vedligeholde kontakten med hinanden og skolen."
 
 
 # SEO Related
@@ -152,7 +155,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-redirect-from
-  - jekyll-remote-theme
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -211,4 +213,4 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "single"
