@@ -1,0 +1,63 @@
+backend:
+  name: github
+  repo: vih-elevforening/elevforeningen-jekyll
+  branch: master # Branch to update (optional; defaults to master)
+  api_root: https://api.github.com
+  site_domain: motionsplan.netlify.app
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+  cms_label_prefix: netlify-cms/
+  open_authoring: true
+  squash_merges: true
+
+media_folder: "assets/images/uploads" # Media files will be stored in the repo under images/uploads
+
+site_url: https://elevforeningen.vih.dk
+display_url: https://elevforeningen.vih.dk
+logo_url: https://elevforeningen.vih.dk/android-chrome-192x192.png
+
+show_preview_links: true
+
+editor:
+  preview: false
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "_posts/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "hidden"}
+      - {label: "Category", name: "category", widget: "select", options: ["Gensynsweekend", "Generalforsamling", "Nyhedsbrev"]}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: true}
+      - {label: "Excerpt", name: "excerpt", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages" # Used in the UI
+    folder: "_pages/" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "hidden"}
+      - {label: "Excerpt", name: "excerpt", widget: "string", required: false}
+      - {label: "Layout", name: "layout", widget: "select", options: ["single"]}
+      - {label: "Body", name: "body", widget: "markdown",  required: false}
+  - name: "index" # Used in routes, e.g., /admin/collections/blog
+    label: "Homepage" # Used in the UI
+    files:
+      - file: "index.html"
+        name: "homepage"
+        label: "Homepage"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Excerpt", name: "excerpt", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "select", options: ["splash"]}
+          - {label: "Body", name: "body", widget: "markdown"}
