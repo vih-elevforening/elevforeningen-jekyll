@@ -35,25 +35,25 @@ address:
 # Footer
 footer:
   links:
-    - label: Privatlivspolitik
-      url: "/privatlivspolitik/"
-      icon: "fas fa-fw fa-exclamation-triangle"
-    - label: Persondatapolitik
-      icon: "fas fa-fw fa-exclamation-triangle"
-      url: "/persondatapolitik/"
     - label: Facebook
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/elevforeningen/"
     - label: Instagram
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/elevforeningenvih/"
-    - label: www.vih.dk
-      icon: "fab fa-fw fa-website"
+    - label: Privatlivspolitik
+      url: "/privatlivspolitik/"
+      icon: "fas fa-fw fa-exclamation-triangle"
+    - label: Persondatapolitik
+      icon: "fas fa-fw fa-exclamation-triangle"
+      url: "/persondatapolitik/"
+    - label: vih.dk
+      icon: "fab fa-fw fa-globe"
       url: "https://www.vih.dk"
-    - label: Historie
+    - label: Historien
       icon: "fab fa-fw fa-globe"
       url: "https://historie.vih.dk"
-    - label: Fond
+    - label: Fonden
       icon: "fab fa-fw fa-globe"
       url: "https://fond.vih.dk"
 

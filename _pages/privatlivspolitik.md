@@ -7,6 +7,7 @@ show_headline: true
 excerpt: &description Dette er privatlivspolitikken for elevforeningen.vih.dk.
 description: *description
 author: elevforeningen
+toc: true
 ---
 
 Dette er privatlivspolitikken for websitet elevforeningen.vih.dk styret af Vejle Idrætshøjskoles Elevforening.
