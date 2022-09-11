@@ -1,0 +1,14 @@
+lsolesen:
+  name: "Elevforeningen"
+  bio: "Elevforeningen på Vejle Idræthsøjskole siden 1944."
+  avatar: "/assets/images/logo.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:elevforeningen@vih.dk"
+    - label: Facebook
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/elevforeningen/"
+    - label: Instagram
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/elevforeningenvih/"

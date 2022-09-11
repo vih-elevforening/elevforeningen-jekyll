@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: single
+author_profile: true
 permalink: /privatlivspolitik/
 title: Privatlivs- og cookiepolitik for Vejle Idrætshøjskoles Elevforening
 show_headline: true
-intro: &description Dette er privatlivspolitikken for elevforeningen.vih.dk.
+excerpt: &description Dette er privatlivspolitikken for elevforeningen.vih.dk.
 description: *description
 ---
 

@@ -1,10 +1,13 @@
 ---
-layout: page
+layout: single
+author_profile: true
 permalink: /fond/
 title: "Få medlemsskab af Vejle Idrætshøjskoles fond"
-intro: &description "Få et årligt medlemsskab af Vejle Idrætshøjskoles fond og vær med til at sikre endnu flere stjernestunder på skolen."
+excerpt: &description "Få et årligt medlemsskab af Vejle Idrætshøjskoles fond og vær med til at sikre endnu flere stjernestunder på skolen."
 description: *description
 ---
+
+{{ page.excerpt }}
 
 Elevforeningen anbefaler dig at være medlem af højskolens fond.
 
