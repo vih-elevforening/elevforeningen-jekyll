@@ -6,6 +6,7 @@ title: Persondatapolitik for Vejle Idrætshøjskoles Elevforening
 show_headline: true
 excerpt: &description Dette er persondatapolitikken for Elevforeningen på Vejle Idrætshøjskole.
 description: *description
+author: elevforeningen
 ---
 
 Dette er Vejle Idrætshøjskoles Elevforening persondatapolitik.

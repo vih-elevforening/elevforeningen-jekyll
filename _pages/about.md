@@ -4,6 +4,7 @@ author_profile: true
 permalink: /om/
 title: "Om Vejle Idrætshøjskoles Elevforening"
 excerpt: "Elevforeningens fornemste opgave er at skabe et sammenhold omkring Vejle Idrætshøjskole for alle de tidligere elever, der gerne vil vedligeholde kontakten med hinanden og skolen. Det gør vi bl.a. ved at hvert år i august at invitere til en stor gensynsweekend for alle tidligere elever og udsende nyhedsbreve."
+author: elevforeningen
 ---
 
 {{ page.excerpt }}

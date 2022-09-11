@@ -5,6 +5,7 @@ permalink: /fond/
 title: "Få medlemsskab af Vejle Idrætshøjskoles fond"
 excerpt: &description "Få et årligt medlemsskab af Vejle Idrætshøjskoles fond og vær med til at sikre endnu flere stjernestunder på skolen."
 description: *description
+author: elevforeningen
 ---
 
 {{ page.excerpt }}

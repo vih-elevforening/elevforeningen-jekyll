@@ -5,6 +5,7 @@ permalink: /medlemsskab/
 title: "Få medlemsskab af Elevforeningen"
 excerpt: &description "Det er gratis at være medlem af elevforeningen."
 description: *description
+author: elevforeningen
 ---
 
 {{ page.excerpt }}
